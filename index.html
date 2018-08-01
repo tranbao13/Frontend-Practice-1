@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+	 <head>
+	 	 <meta charset="utf-8">
+	 	 <title>Shopping</title>
+	 	 <link rel="stylesheet" href="styles/reset.css">
+	 	 <link rel="stylesheet" href="styles/styles.css">
+	 	 <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	 	 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	 </head>
+	 <body>
+	 	 <div class="container"> <!-- Container width 960px -->
+	 	 <header>
+	 	 	 <a href=#><h1 id="logo">Your Logo</h1></a>
+	 	 	 <button id="reg">REGISTER</button>
+	 	 	 <button id="acc">MY ACCOUNT</button>
+	 	 </header>
+
+	 	 <nav>
+	 	 	 <div class="menu">
+	 	 	 	 <a href=#>TODAY'S DEAL</a>
+	 	 	 	 <a href=#>RECENT DEALS</a>
+	 	 	 	 <!--Start dropdown menu-->
+	 	 	 	 <div class="dropdown">
+	 	 	 	 	 <button class="dropbtn">HOW IT WORKS</button>
+	 	 	 	 	 <div class="dropdown-content">
+	 	 	 	 	 	 <table>
+	 	 	 	 	 	 	 <tr>
+	 	 	 	 	 	 	 	 <td><a href=#>CARPET CLEANING</a></td>
+	 	 	 	 	 	 	 	 <td><a href=#>24HR FLOOR SERVICE</a></td>
+	 	 	 	 	 	 	 </tr>
+	 	 	 	 	 	 	 <tr>
+	 	 	 	 	 	 	 	 <td><a href=#>UPHOLSTERY CLEANING</a></td>
+	 	 	 	 	 	 	 	 <td><a href=#>PET ODOR REMOVAL TREATMENT</a></td>
+	 	 	 	 	 	 	 </tr>
+	 	 	 	 	 	 	 <tr>
+	 	 	 	 	 	 	 	 <td><a href=#>REPAIRS & RESTRETCHING</a></td>
+	 	 	 	 	 	 	 	 <td><a href=#>MATTRESS CLEANING</a></td>
+	 	 	 	 	 	 	 </tr>
+	 	 	 	 	 	 	 <tr>
+	 	 	 	 	 	 	 	 <td><a href=#>TILE & STONE CLEANING</a></td>
+	 	 	 	 	 	 	 	 <td><a href=#>SCOTHGUARD PROTECTION</a></td>
+	 	 	 	 	 	 	 </tr>
+	 	 	 	 	 	 	 <tr>
+	 	 	 	 	 	 	 	 <td><a href=#>AIR DUCT & DRYER CLEANING</a></td>
+	 	 	 	 	 	 	 	 <td><a href=#>ORIENTAL & AREA RUG CLEANING</a></td>
+	 	 	 	 	 	 	 </tr>
+	 	 	 	 	 	 	 <tr>
+	 	 	 	 	 	 	 	 <td><a href=#>DRAPERY CLEANING</a></td>
+	 	 	 	 	 	 	 	 <td><a href=#>CRIME SCENE TRAUMA CLEAN-UP - BIO HAZARD</a></td>
+	 	 	 	 	 	 	 </tr>
+	 	 	 	 	 	 </table>
+	 	 	 	 	 </div>
+	 	 	 	 </div>
+	 	 	 	 <!--End dropdown menu-->
+	 	 	 </div>
+	 	 	 <div class="searchbar">
+	 	 	 	 <form>
+	 	 	 	 	 <input type="text" placeholder="Enter your keyword..." name="search" id="search">
+	 	 	 	 </form>
+	 	 	 </div>
+	 	 </nav>
+	 	 <!-- Start content body (Two parts: The main content on the left. The sidebar on the right) -->
+	 	 <div id="wrapper">
+	 	 <div id="main-content">
+	 	 	 <!--Main content: Promotion, Offer description, Fine print, Partner info -->
+	 	 	 <section id="promotion">
+	 	 	 	 <h2>52% Off 4-Piece Chef Steak Knife Set!</h2>
+	 	 	 	 <h2>Today, pay only $30 and save over 90% with today's Daily</h2>
+	 	 	 	 <!-- Use two columns table: Promotion content on the left. Picture on the right -->
+	 	 	 	 <table class="big-table">
+	 	 	 	 	 <tr>
+	 	 	 	 	 	 <td style="text-align: left;"><button>Buy it now!</button></td>
+	 	 	 	 	 	 <td rowspan="5" style="text-align: right; padding-top: 15px;padding-bottom: 15px;"><img src="images/topchef.png"></td>
+	 	 	 	 	 </tr>
+	 	 	 	 	 <tr><td style="font-size:14px;border-top: hidden;">Pay Only:<span style="font-size:40px;font-weight: bold;">$29.99</span></td></tr>
+	 	 	 	 	 <tr>
+	 	 	 	 	 	 <td style="padding:0;">
+	 	 	 	 	 	 	 <table class="value-table">
+	 	 	 	 	 	 	 	 <tr>
+	 	 	 	 	 			 	 <td>
+	 	 	 	 	 			 	 	 <p style="font-weight: bold;">Value<p>
+	 	 	 	 	 			 	 	 <p>$25.99</p>
+	 	 	 	 	 			 	 </td>
+	 	 	 	 	 			 	 <td style="border-left:0.3px dotted grey;border-right:0.3px dotted grey;">
+	 	 	 	 	 			 	 	 <p style="font-weight: bold;">Discount</p>
+	 	 	 	 	 			 	 	 <p>90%</p>
+	 	 	 	 	 			 	 </td>
+	 	 	 	 	 			 	 <td>
+	 	 	 	 	 			 	 	 <p style="font-weight: bold;">You save</p>
+	 	 	 	 	 			 	 	 <p>$22</p>
+	 	 	 	 	 			 	 </td>
+	 	 	 	 	 			 </tr>
+	 	 	 	 	 		 </table>
+	 	 	 	 	 	 </td>
+	 	 	 	 	 </tr>
+	 	 	 	 	 <tr>
+	 	 	 	 	 	 <td>
+	 	 	 	 	 	 	 <p style="float:left;font-size:14px;">Time left:</p>
+	 	 	 	 	 	 	 <p style="float:right;font-size:30px;font-weight: bold;">24:12:05</p>	 	 	 	 	 	
+	 	 	 	 	 	 </td>
+	 	 	 	 	 </tr>
+	 	 	 	 	 <tr>
+	 	 	 	 	 	 <td>
+	 	 	 	 	 	 	 <p style="float:left;font-size:14px">Sold:</p>
+	 	 	 	 	 	 	 <p style="float:right;font-size:22px;font-weight: bold;">120</p>
+	 	 	 	 	 	 	 <progress value="120" max="141" style="display:flex;clear:both;color:#ff7c00;">
+	 	 	 	 	 	 </td>
+	 	 	 	 	 </tr>
+	 	 	 	 </table>
+	 	 	 </section>
+
+	 	 	 <section id="offer-description">
+	 	 	 	 <h2>Offer description</h2>
+	 	 	 	 <img src="images/sepline.png">
+	 	 	 	 <p>Impress your guests next time you’re putting on a dinner party or a warm weather BBQ. Eat like the chefs on Bravo’s popular hit show, Top Chef, with this professional-quality steak knife set:</p>
+	 	 	 	 <ul>
+	 	 	 	 	 <li>Four 5-inch steak knives</li>
+	 	 	 	 	 <li>Laser-etched “Top Chef” logo on each knife</li>
+	 	 	 	 	 <li>Free shipping!</li>
+	 	 	 	 </ul>
+	 	 	 </section>
+
+	 	 	 <section id="fineprint">
+	 	 	 	 <h2>The fine print</h2>
+	 	 	 	 <img src="images/sepline.png">
+	 	 	 	 <ul>
+	 	 	 	 	 <li>Free shipping</li>
+	 	 	 	 	 <li>Your address will be sent to the merchant when the deal closes. You do not need to do anything additional to redeem this deal.</li>
+	 	 	 	 	 <li>Knife set will ship within 2-3 days of deal closing. Please allow 7-10 days for delivery</li>
+	 	 	 	 	 <li>Unlimited vouchers may be purchased</li>
+	 	 	 	 	 <li>No cash value, no cash back</li>
+	 	 	 	 	 <li>Expires May 31, 2012</li>
+	 	 	 	 </ul>
+	 	 	 </section>
+
+	 	 	 <section id="partner-info">
+	 	 	 	 <h2>Partner information</h2>
+	 	 	 	 <img src="images/sepline.png">
+	 	 	 	 <p>Guarantee the success of your next barbecue when you serve steaks complete with Top Chef 5-inch steak knives, and enjoy today’s savings with our Daily Deal.</p>
+	 	 	 	 <br>
+	 	 	 	 <p>Guarantee the success of your next barbecue when you serve steaks complete with Top Chef 5-inch steak knives, and enjoy today’s savings with our Daily Deal.</p>
+	 	 	 	 <br>
+	 	 	 	 <p>
+	 	 	 	 	 Company Name in this position<br>
+					 Phone: 0800.123.456, 0800.345.678<br>
+					 Website: www.topshopping.com<br>
+					 E-mail address: <a href="mailto:orders@top-shopping.com" style="font-weight: bold;">orders@top-shopping.com</a><br>
+				 </p>
+					 <div id="map" style="width:655px;height:384px;background:yellow;margin-top: 15px;"></div>
+					 <!-- Script running the map -->
+					 <script>
+					 function myMap() {
+						 var mapOptions = {
+						 	center: new google.maps.LatLng(51.5, -0.12),
+						 	zoom: 10,
+						 	mapTypeId: google.maps.MapTypeId.HYBRID
+						 }
+						 var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+						 }
+					 </script>
+					 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBb4Fp4H53Bw9zaVnn7XOrDK5D0si6zp4&callback=myMap"></script>
+					 <!--End map-->
+					 <button class="CTA">Buy it now!</button>
+	 	 	 </section>
+	 	 </div>
+	 	 <!--Create 3 sidebar deal widgets-->
+	 	 <div id="sidebar">
+	 	 	 	 <div class="widget-title"><h2>Other deals</h2></div>
+	 	 	 	 <div class="widget">
+	 	 	 	 	 <a href=#><p class="deal-description">2 course romantic dinner at Romeo’s Bar & Grill for only $12.99 today!</p></a>
+	 	 	 	 	 <img src="images/romantic-dinner.png">
+	 	 	 	 	 <table class="value-table" style="margin-top:8px;">
+	 	 	 	 	 	 <tr>
+	 	 	 	 	 		 <td>
+	 	 	 	 	 	 	 	 <p style="font-weight: bold;">Value<p>
+	 	 	 	 	 	 	 	 <p>$35.99</p>
+	 	 	 	 	 	 	 </td>
+	 	 	 	 	 	 	 <td style="border-left:0.3px dotted grey;border-right:0.3px dotted grey;">
+	 	 	 	 	 	 	 	 <p style="font-weight: bold;">Discount</p>
+	 	 	 	 	 	 	 	 <p>80%</p>
+	 	 	 	 	 	 	 </td>
+	 	 	 	 	 	 	 <td>
+	 	 	 	 	 	 	 	 <p style="font-weight: bold;">You save</p>
+	 	 	 	 	 	 	 	 <p>$12</p>
+	 	 	 	 	 	 	 </td>
+	 	 	 	 	 	 </tr>
+	 	 	 	 	 </table>
+	 	 	 	 </div>
+	 	 	 	 <div id="widget">
+	 	 	 	 	 <a href=#><p class="deal-description" style="font-weight:bold;margin-bottom: 8px;">Movie star hair treatment with professional products for only $24.99 at Style Saloon</p></a>
+	 	 	 	 	 <img src="images/movie-star.png">
+	 	 	 	 	 <table class="value-table" style="margin-top:8px;">
+	 	 	 	 	 	 <tr>
+	 	 	 	 	 		 <td>
+	 	 	 	 	 	 	 	 <p style="font-weight: bold;">Value<p>
+	 	 	 	 	 	 	 	 <p>$35.99</p>
+	 	 	 	 	 	 	 </td>
+	 	 	 	 	 	 	 <td style="border-left:0.3px dotted grey;border-right:0.3px dotted grey;">
+	 	 	 	 	 	 	 	 <p style="font-weight: bold;">Discount</p>
+	 	 	 	 	 	 	 	 <p>80%</p>
+	 	 	 	 	 	 	 </td>
+	 	 	 	 	 	 	 <td>
+	 	 	 	 	 	 	 	 <p style="font-weight: bold;">You save</p>
+	 	 	 	 	 	 	 	 <p>$12</p>
+	 	 	 	 	 	 	 </td>
+	 	 	 	 	 	 </tr>
+	 	 	 	 	 </table>
+	 	 	 	 </div>
+	 	 	 	 <div id="widget" style="margin-top: 20px;">
+	 	 	 	 	 <a href=#><p class="deal-description" style="font-weight:bold;margin-bottom: 8px;">2 person city break at the sea! Pay $49 for a 5* resort & spa only today! Limited offer!</p></a>
+	 	 	 	 	 <img src="images/city-break.png">
+	 	 	 	 	 <table class="value-table" style="margin-top:8px;">
+	 	 	 	 	 	 <tr>
+	 	 	 	 	 		 <td>
+	 	 	 	 	 	 	 	 <p style="font-weight: bold;">Value<p>
+	 	 	 	 	 	 	 	 <p>$35.99</p>
+	 	 	 	 	 	 	 </td>
+	 	 	 	 	 	 	 <td style="border-left:0.3px dotted grey;border-right:0.3px dotted grey;">
+	 	 	 	 	 	 	 	 <p style="font-weight: bold;">Discount</p>
+	 	 	 	 	 	 	 	 <p>80%</p>
+	 	 	 	 	 	 	 </td>
+	 	 	 	 	 	 	 <td>
+	 	 	 	 	 	 	 	 <p style="font-weight: bold;">You save</p>
+	 	 	 	 	 	 	 	 <p>$12</p>
+	 	 	 	 	 	 	 </td>
+	 	 	 	 	 	 </tr>
+	 	 	 	 	 </table>
+	 	 	 	 </div>
+	 	 </div>
+	 	 </div>
+	 	 </div>
+	 	 <!--End content body-->
+	 	 <footer>
+	 	 	 <div id = "footer-widget-background">
+	 	 	 	 <!--Footer with 3 column of widgets-->
+	 	 	 	 <table class="widget-container">
+	 	 	 	 	 <tr>
+	 	 	 	 	 	 <td style="width:30%;" id ="quicklink">
+	 	 	 	 		 	 <p class="title-footer">QUICK LINK</p>
+	 	 	 	 			 <table>
+	 	 	 	 	 	 	 	 <tr>
+	 	 	 	 	 	 	 	 	 <td><a href=#>&#8811; Today's Deal</a></td>
+	 	 	 	 	 	 	 	 	 <td><a href=#>&#8811; About Us</a></td>
+	 	 	 	 	 	 	 	 </tr>
+	 	 	 	 	 	 	 	 <tr>
+	 	 	 	 	 	 	 	 	 <td><a href=#>&#8811; Recent Deals</a></td>
+	 	 	 	 	 	 	 	 	 <td><a href=#>&#8811; Contact Us</a></td>
+	 	 	 	 	 	 	 	 </tr>
+	 	 	 	 	 	 	 	 <tr>
+	 	 	 	 	 	 	 	 	 <td><a href=#>&#8811; How It Works</a></td>
+	 	 	 	 	 	 	 	 	 <td><a href=#>&#8811; Press</a></td>
+	 	 	 	 	 	 	 	 </tr>
+	 	 	 	 	 	 	 	 <tr>
+	 	 	 	 	 	 	 	 	 <td><a href=#>&#8811; Subscribe</a></td>
+	 	 	 	 	 	 	 	 	 <td><a href=#>&#8811; Login</a></td>
+	 	 	 	 	 	 	 	 </tr>
+	 	 	 	 	 	 	 </table>
+	 	 	 	 		 	 
+	 	 	 	 		 </td>
+	 	 	 	 		 <td style="width:30%;" id ="subscribe">
+	 	 	 	 			 <p class="title-footer">SUBSCRIBE TO OUR NEWSLETTER</p>
+	 	 	 	 	 		 <p style="font-size:11px;color:white;margin-top: 20px;margin-bottom: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pellentesque nisi sed libero interdum quis condimentum diam blandit. Ut tempus ante eu libero egestas aliquet.</p>
+	 	 	 	 	 		 <form>
+	 	 	 	 	 			 <input type="text" name="email" placeholder="Enter your email address" style="width:100%;">
+	 	 	 	 	 			 <button>Subscribe</button>
+	 	 	 	 	 		 </form> 
+	 	 	 			 </td>
+	 	 	 			 <td style="width:30%;padding-left: 35px;" id="user">
+	 	 	 			 	 
+	 	 	 	 			  	 <p class="title-footer">WE HAVE SAVED OUR USERS OVER:</p>
+	 	 	 	 	 			 <p class="money-saved">$2,123,533,312.00!</p>
+	 	 	 	 	 			 <a href=#><h1 id="logo">Your Logo</h1></a>
+	 	 	 	 	 		 
+	 	 	 			 </td>
+	 	 	 	 	 </tr>
+	 	 	 	 </table>
+	 	 	 </div>
+
+	 	 	 <div id ="copyright">
+	 	 	 	Copyright © 2012 2dailydeals.com. All rights reserved.
+	 	 	 </div>
+	 	 	 
+	 	 </footer>
+
+	 </body>
+</html>
